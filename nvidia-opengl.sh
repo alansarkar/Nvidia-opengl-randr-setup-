@@ -1,5 +1,6 @@
 #/bin/sh 
-HOME_DIR=/home/jerome
+USSRR=`logname`
+HOME_DIR=/home/$USSRR
 
 value_enter=$1
 echo " this script should run as root user"
